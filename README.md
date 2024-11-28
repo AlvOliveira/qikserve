@@ -19,6 +19,10 @@ The goal is to create an API for a local supermarket where customers can:
 - Apply quantity-based promotions.
 - Display the total cost and the discounts applied.
 
+# How to download the application for your environment
+```
+git clone https://github.com/AlvOliveira/qikserve.git
+```
 # Environment Setup Instructions
 
 Navigate to the qikserve directory and run the following command:
@@ -34,9 +38,9 @@ Access the product list via the following browser link (GET request):
 http://localhost:8080/api/products
 ```
 
-## Testing Instructions via curl.
+## The following instructions are for validating APIs via "curl" application
 
-## Example: Listing all products (API **"products"**)
+## Example: Listing all products (API "products")
 Navigate to the qikserve directory and run the following commands in your preferred terminal:
 
 For Windows PowerShell:
@@ -69,7 +73,7 @@ curl -X GET http://localhost:8080/api/products \
 -H "Content-Type: application/json"
 ```
 
-## Example: Fetching a product by ID (API **"product"**)
+## Example: Fetching a product by ID (API "product")
 Navigate to the qikserve directory and run the following commands in your preferred terminal:
 
 For Windows PowerShell:
@@ -100,7 +104,7 @@ curl -X GET http://localhost:8080/api/product/C8GDyLrHJb \
 -H "Content-Type: application/json"
 ```
 
-## Example: Calculating a basket's total (API **"checkout"**)
+## Example: Calculating a basket's total (API "checkout")
 Navigate to the qikserve directory and run the following commands in your preferred terminal:
 
 For Windows PowerShell:
