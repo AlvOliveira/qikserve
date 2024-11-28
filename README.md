@@ -52,7 +52,21 @@ For Linux/MacOS Terminal:
 ```
 chmod +x testGetProduts.sh
 
-testGetProduts.sh
+./testGetProduts.sh
+```
+
+Contents of the test file **testGetProduts.cmd** for Windows: 
+```
+curl -X GET http://localhost:8080/api/products ^
+-H "Content-Type: application/json"
+```
+
+Contents of the test file **testGetProduts.sh** for Linux/MacOS: 
+```
+#!/bin/bash
+
+curl -X GET http://localhost:8080/api/products \
+-H "Content-Type: application/json"
 ```
 
 ## Example: Fetching a product by ID (API **"product"**)
@@ -70,7 +84,20 @@ For Linux/MacOS Terminal:
 ```
 chmod +x testGetProdutById.sh
 
-testGetProdutById.sh
+./testGetProdutById.sh
+```
+Contents of the test file **testGetProdutById.cmd** for Windows: 
+```
+curl -X GET http://localhost:8080/api/product/C8GDyLrHJb ^
+-H "Content-Type: application/json"
+```
+
+Contents of the test file **testGetProdutById.sh** for Linux/MacOS: 
+```
+#!/bin/bash
+
+curl -X GET http://localhost:8080/api/product/C8GDyLrHJb \
+-H "Content-Type: application/json"
 ```
 
 ## Example: Calculating a basket's total (API **"checkout"**)
@@ -88,5 +115,21 @@ For Linux/MacOS terminal:
 ```
 chmod +x testCheckout.sh
 
-testCheckout.sh
+./testCheckout.sh
+```
+
+Contents of the test file **testCheckout.cmd** for Windows: 
+```
+curl -X POST http://localhost:8080/api/checkout ^
+-H "Content-Type: application/json" ^
+-d "[{\"productId\":\"PWWe3w1SDU\",\"quantity\":3},{\"productId\":\"C8GDyLrHJb\",\"quantity\":2},{\"productId\":\"PWWe3w1SDU\",\"quantity\":10}]"
+```
+
+Contents of the test file **testCheckout.sh** for Linux/MacOS: 
+```
+#!/bin/bash
+
+curl -X POST http://localhost:8080/api/checkout \
+-H "Content-Type: application/json" \
+-d '[{"productId":"PWWe3w1SDU","quantity":3},{"productId":"C8GDyLrHJb","quantity":2}]'
 ```
