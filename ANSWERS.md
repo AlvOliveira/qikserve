@@ -6,7 +6,7 @@ I spent approximately 24 hours creating all the code, setting up the test enviro
 
 ## 2. What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.
 
-Utilizei o operador `->` para melhor entendimento do código do switch.
+I used the `->` operator for better understanding of the switch code and safer pattern matching for expression.
 
 ```
 switch (promotion.getType()) {
