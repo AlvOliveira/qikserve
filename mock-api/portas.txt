@@ -1,0 +1,145 @@
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:135            NTWIN10-ALVARO:0       LISTENING
+  TCP    0.0.0.0:445            NTWIN10-ALVARO:0       LISTENING
+  TCP    0.0.0.0:903            NTWIN10-ALVARO:0       LISTENING
+  TCP    0.0.0.0:913            NTWIN10-ALVARO:0       LISTENING
+  TCP    0.0.0.0:1337           NTWIN10-ALVARO:0       LISTENING
+  TCP    0.0.0.0:1435           NTWIN10-ALVARO:0       LISTENING
+  TCP    0.0.0.0:1536           NTWIN10-ALVARO:0       LISTENING
+  TCP    0.0.0.0:1537           NTWIN10-ALVARO:0       LISTENING
+  TCP    0.0.0.0:1538           NTWIN10-ALVARO:0       LISTENING
+  TCP    0.0.0.0:1539           NTWIN10-ALVARO:0       LISTENING
+  TCP    0.0.0.0:1540           NTWIN10-ALVARO:0       LISTENING
+  TCP    0.0.0.0:1541           NTWIN10-ALVARO:0       LISTENING
+  TCP    0.0.0.0:1542           NTWIN10-ALVARO:0       LISTENING
+  TCP    0.0.0.0:2179           NTWIN10-ALVARO:0       LISTENING
+  TCP    0.0.0.0:3800           NTWIN10-ALVARO:0       LISTENING
+  TCP    0.0.0.0:5040           NTWIN10-ALVARO:0       LISTENING
+  TCP    0.0.0.0:7680           NTWIN10-ALVARO:0       LISTENING
+  TCP    0.0.0.0:15734          NTWIN10-ALVARO:0       LISTENING
+  TCP    127.0.0.1:16748        NTWIN10-ALVARO:0       LISTENING
+  TCP    127.0.0.1:16748        kubernetes:16769       ESTABLISHED
+  TCP    127.0.0.1:16769        kubernetes:16748       ESTABLISHED
+  TCP    127.0.0.1:16783        kubernetes:65001       ESTABLISHED
+  TCP    127.0.0.1:16994        NTWIN10-ALVARO:0       LISTENING
+  TCP    127.0.0.1:30900        NTWIN10-ALVARO:0       LISTENING
+  TCP    127.0.0.1:65001        NTWIN10-ALVARO:0       LISTENING
+  TCP    127.0.0.1:65001        kubernetes:16783       ESTABLISHED
+  TCP    172.27.80.1:139        NTWIN10-ALVARO:0       LISTENING
+  TCP    192.168.15.149:139     NTWIN10-ALVARO:0       LISTENING
+  TCP    192.168.15.149:16671   172.172.255.217:https  ESTABLISHED
+  TCP    192.168.15.149:16682   108-174-10-24:https    CLOSE_WAIT
+  TCP    192.168.15.149:16705   52.97.4.162:https      ESTABLISHED
+  TCP    192.168.15.149:16753   57.152.69.41:https     ESTABLISHED
+  TCP    192.168.15.149:16788   52.191.94.52:https     ESTABLISHED
+  TCP    192.168.15.149:16988   172.171.136.114:https  CLOSE_WAIT
+  TCP    192.168.15.149:17020   whatsapp-cdn-shv-02-gru1:https  ESTABLISHED
+  TCP    192.168.15.149:17031   cb-in-f188:5228        ESTABLISHED
+  TCP    192.168.15.149:17094   a2-18-127-249:https    CLOSE_WAIT
+  TCP    192.168.15.149:17113   104.18.37.228:https    ESTABLISHED
+  TCP    192.168.15.149:17116   172.64.155.209:https   ESTABLISHED
+  TCP    192.168.15.149:17120   104.18.32.47:https     ESTABLISHED
+  TCP    192.168.15.149:17140   gru06s47-in-f10:https  ESTABLISHED
+  TCP    192.168.15.149:17147   rio01s21-in-f67:https  ESTABLISHED
+  TCP    192.168.15.149:17160   gru06s64-in-f3:https   ESTABLISHED
+  TCP    192.168.15.149:17164   a23-50-112-217:https   ESTABLISHED
+  TCP    192.168.15.149:17165   ec2-3-233-129-217:https  CLOSE_WAIT
+  TCP    192.168.15.149:17166   52.112.84.208:https    ESTABLISHED
+  TCP    192.168.15.149:17170   gru14s28-in-f3:https   ESTABLISHED
+  TCP    192.168.15.149:17171   20.69.137.228:https    ESTABLISHED
+  TCP    192.168.92.1:139       NTWIN10-ALVARO:0       LISTENING
+  TCP    192.168.198.1:139      NTWIN10-ALVARO:0       LISTENING
+  TCP    [::]:135               NTWIN10-ALVARO:0       LISTENING
+  TCP    [::]:445               NTWIN10-ALVARO:0       LISTENING
+  TCP    [::]:1337              NTWIN10-ALVARO:0       LISTENING
+  TCP    [::]:1435              NTWIN10-ALVARO:0       LISTENING
+  TCP    [::]:1536              NTWIN10-ALVARO:0       LISTENING
+  TCP    [::]:1537              NTWIN10-ALVARO:0       LISTENING
+  TCP    [::]:1538              NTWIN10-ALVARO:0       LISTENING
+  TCP    [::]:1539              NTWIN10-ALVARO:0       LISTENING
+  TCP    [::]:1540              NTWIN10-ALVARO:0       LISTENING
+  TCP    [::]:1541              NTWIN10-ALVARO:0       LISTENING
+  TCP    [::]:1542              NTWIN10-ALVARO:0       LISTENING
+  TCP    [::]:2179              NTWIN10-ALVARO:0       LISTENING
+  TCP    [::]:3800              NTWIN10-ALVARO:0       LISTENING
+  TCP    [::]:15734             NTWIN10-ALVARO:0       LISTENING
+  UDP    0.0.0.0:53             *:*                    
+  UDP    0.0.0.0:123            *:*                    
+  UDP    0.0.0.0:161            *:*                    
+  UDP    0.0.0.0:500            *:*                    
+  UDP    0.0.0.0:514            *:*                    
+  UDP    0.0.0.0:4500           *:*                    
+  UDP    0.0.0.0:5050           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5355           *:*                    
+  UDP    0.0.0.0:50262          *:*                    
+  UDP    0.0.0.0:51950          *:*                    
+  UDP    0.0.0.0:51951          *:*                    
+  UDP    0.0.0.0:56430          *:*                    
+  UDP    0.0.0.0:58420          *:*                    
+  UDP    0.0.0.0:63618          *:*                    
+  UDP    0.0.0.0:65216          *:*                    
+  UDP    127.0.0.1:1900         *:*                    
+  UDP    127.0.0.1:10010        *:*                    
+  UDP    127.0.0.1:50784        *:*                    
+  UDP    127.0.0.1:51148        *:*                    
+  UDP    127.0.0.1:57399        *:*                    
+  UDP    127.0.0.1:57668        *:*                    
+  UDP    127.0.0.1:61165        *:*                    
+  UDP    172.27.80.1:67         *:*                    
+  UDP    172.27.80.1:68         *:*                    
+  UDP    172.27.80.1:137        *:*                    
+  UDP    172.27.80.1:138        *:*                    
+  UDP    172.27.80.1:1900       *:*                    
+  UDP    172.27.80.1:5353       *:*                    
+  UDP    172.27.80.1:57669      *:*                    
+  UDP    192.168.15.149:137     *:*                    
+  UDP    192.168.15.149:138     *:*                    
+  UDP    192.168.15.149:1900    *:*                    
+  UDP    192.168.15.149:5353    *:*                    
+  UDP    192.168.15.149:57667   *:*                    
+  UDP    192.168.92.1:137       *:*                    
+  UDP    192.168.92.1:138       *:*                    
+  UDP    192.168.92.1:1900      *:*                    
+  UDP    192.168.92.1:5353      *:*                    
+  UDP    192.168.92.1:57666     *:*                    
+  UDP    192.168.198.1:137      *:*                    
+  UDP    192.168.198.1:138      *:*                    
+  UDP    192.168.198.1:1900     *:*                    
+  UDP    192.168.198.1:5353     *:*                    
+  UDP    192.168.198.1:57665    *:*                    
+  UDP    [::]:123               *:*                    
+  UDP    [::]:161               *:*                    
+  UDP    [::]:500               *:*                    
+  UDP    [::]:4500              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5355              *:*                    
+  UDP    [::]:51952             *:*                    
+  UDP    [::]:58421             *:*                    
+  UDP    [::]:65216             *:*                    
+  UDP    [::1]:1900             *:*                    
+  UDP    [::1]:5353             *:*                    
+  UDP    [::1]:57663            *:*                    
+  UDP    [fe80::21d5:a058:93b2:ffeb%22]:1900  *:*                    
+  UDP    [fe80::21d5:a058:93b2:ffeb%22]:57660  *:*                    
+  UDP    [fe80::3ebe:ed7:2897:eaec%17]:1900  *:*                    
+  UDP    [fe80::3ebe:ed7:2897:eaec%17]:57662  *:*                    
+  UDP    [fe80::b5c9:23b4:2a26:3d88%59]:1900  *:*                    
+  UDP    [fe80::b5c9:23b4:2a26:3d88%59]:57664  *:*                    
+  UDP    [fe80::dec0:8aca:4b1:6c57%12]:1900  *:*                    
+  UDP    [fe80::dec0:8aca:4b1:6c57%12]:57661  *:*                    

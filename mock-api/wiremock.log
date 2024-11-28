@@ -1,0 +1,195 @@
+2024-11-26 20:50:07.532 Verbose logging enabled
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2024-11-26 20:50:08.355 Verbose logging enabled
+ /$$      /$$ /$$                     /$$      /$$                     /$$      
+| $$  /$ | $$|__/                    | $$$    /$$$                    | $$      
+| $$ /$$$| $$ /$$  /$$$$$$   /$$$$$$ | $$$$  /$$$$  /$$$$$$   /$$$$$$$| $$   /$$
+| $$/$$ $$ $$| $$ /$$__  $$ /$$__  $$| $$ $$/$$ $$ /$$__  $$ /$$_____/| $$  /$$/
+| $$$$_  $$$$| $$| $$  \__/| $$$$$$$$| $$  $$$| $$| $$  \ $$| $$      | $$$$$$/ 
+| $$$/ \  $$$| $$| $$      | $$_____/| $$\  $ | $$| $$  | $$| $$      | $$_  $$ 
+| $$/   \  $$| $$| $$      |  $$$$$$$| $$ \/  | $$|  $$$$$$/|  $$$$$$$| $$ \  $$
+|__/     \__/|__/|__/       \_______/|__/     |__/ \______/  \_______/|__/  \__/
+
+port:                         8081
+enable-browser-proxying:      false
+no-request-journal:           false
+verbose:                      true
+
+2024-11-26 20:50:29.625 Request received:
+0:0:0:0:0:0:0:1 - GET /products
+
+Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36]
+Sec-Fetch-Site: [none]
+Sec-Fetch-Dest: [document]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br, zstd]
+Sec-Fetch-Mode: [navigate]
+sec-ch-ua: ["Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"]
+sec-ch-ua-mobile: [?0]
+Upgrade-Insecure-Requests: [1]
+sec-ch-ua-platform: ["Windows"]
+Sec-Fetch-User: [?1]
+Accept-Language: [pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "[{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099},{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999},{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499},{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199}]",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+[{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099},{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999},{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499},{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199}]
+
+2024-11-26 20:51:13.998 Request received:
+0:0:0:0:0:0:0:1 - GET /products/Dwt5F7KAhi
+
+Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36]
+Sec-Fetch-Site: [none]
+Sec-Fetch-Dest: [document]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br, zstd]
+Sec-Fetch-Mode: [navigate]
+sec-ch-ua: ["Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"]
+sec-ch-ua-mobile: [?0]
+Upgrade-Insecure-Requests: [1]
+sec-ch-ua-platform: ["Windows"]
+Sec-Fetch-User: [?1]
+Accept-Language: [pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"Dwt5F7KAhi\",\"name\":\"Amazing Pizza!\",\"price\":1099,\"promotions\":[{\"id\":\"ibt3EEYczW\",\"type\":\"QTY_BASED_PRICE_OVERRIDE\",\"required_qty\":2,\"price\":1799}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"Dwt5F7KAhi","name":"Amazing Pizza!","price":1099,"promotions":[{"id":"ibt3EEYczW","type":"QTY_BASED_PRICE_OVERRIDE","required_qty":2,"price":1799}]}
+
+2024-11-26 21:41:22.383 Request received:
+0:0:0:0:0:0:0:1 - GET /products/PWWe3w1SDU
+
+Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36]
+Sec-Fetch-Site: [none]
+Sec-Fetch-Dest: [document]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br, zstd]
+Sec-Fetch-Mode: [navigate]
+sec-ch-ua: ["Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"]
+sec-ch-ua-mobile: [?0]
+Upgrade-Insecure-Requests: [1]
+sec-ch-ua-platform: ["Windows"]
+Sec-Fetch-User: [?1]
+Accept-Language: [pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"PWWe3w1SDU\",\"name\":\"Amazing Burger!\",\"price\":999,\"promotions\":[{\"id\":\"ZRAwbsO2qM\",\"type\":\"BUY_X_GET_Y_FREE\",\"required_qty\":2,\"free_qty\":1}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"PWWe3w1SDU","name":"Amazing Burger!","price":999,"promotions":[{"id":"ZRAwbsO2qM","type":"BUY_X_GET_Y_FREE","required_qty":2,"free_qty":1}]}
+
+2024-11-26 21:42:19.332 Request received:
+0:0:0:0:0:0:0:1 - GET /products/C8GDyLrHJb
+
+Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36]
+Sec-Fetch-Site: [none]
+Sec-Fetch-Dest: [document]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br, zstd]
+Sec-Fetch-Mode: [navigate]
+sec-ch-ua: ["Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"]
+sec-ch-ua-mobile: [?0]
+Upgrade-Insecure-Requests: [1]
+sec-ch-ua-platform: ["Windows"]
+Sec-Fetch-User: [?1]
+Accept-Language: [pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"C8GDyLrHJb\",\"name\":\"Amazing Salad!\",\"price\":499,\"promotions\":[{\"id\":\"Gm1piPn7Fg\",\"type\":\"FLAT_PERCENT\",\"amount\":10}]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"C8GDyLrHJb","name":"Amazing Salad!","price":499,"promotions":[{"id":"Gm1piPn7Fg","type":"FLAT_PERCENT","amount":10}]}
+
+2024-11-26 21:43:07.215 Request received:
+0:0:0:0:0:0:0:1 - GET /products/4MB7UfpTQs
+
+Accept: [text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7]
+Connection: [keep-alive]
+User-Agent: [Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36]
+Sec-Fetch-Site: [none]
+Sec-Fetch-Dest: [document]
+Host: [localhost:8081]
+Accept-Encoding: [gzip, deflate, br, zstd]
+Sec-Fetch-Mode: [navigate]
+sec-ch-ua: ["Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"]
+sec-ch-ua-mobile: [?0]
+Upgrade-Insecure-Requests: [1]
+sec-ch-ua-platform: ["Windows"]
+Sec-Fetch-User: [?1]
+Accept-Language: [pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7]
+
+
+
+Matched response definition:
+{
+  "status" : 200,
+  "body" : "{\"id\":\"4MB7UfpTQs\",\"name\":\"Boring Fries!\",\"price\":199,\"promotions\":[]}",
+  "headers" : {
+    "Content-Type" : "application/json"
+  }
+}
+
+Response:
+HTTP/1.1 200
+Content-Type: [application/json]
+
+{"id":"4MB7UfpTQs","name":"Boring Fries!","price":199,"promotions":[]}
+
+2024-11-26 22:47:17.503 Received request to /shutdown with body 

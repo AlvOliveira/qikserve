@@ -1,0 +1,28 @@
+
+services:
+
+  checkoutapi:
+    build:
+      context: ./checkoutapi
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    networks:
+      - app-network
+    depends_on:
+      - mock-api
+    environment:
+      - API_SIMULATOR_URL=http://mock-api:8081
+
+  mock-api:
+    build:
+      context: ./mock-api
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
