@@ -37,13 +37,18 @@ http://localhost:8080/api/products
 ## Testing Instructions via curl.
 
 ## Example: Listing all products (API **"products"**)
-Navigate to the qikserve directory and execute the following commands:
+Navigate to the qikserve directory and run the following commands in your preferred terminal:
 
-For Windows:
+For Windows PowerShell:
+```
+./testGetProduts.cmd
+```
+For Windows Command Prompt:
 ```
 testGetProduts.cmd
 ```
-For Linux/MacOS:
+
+For Linux/MacOS Terminal:
 ```
 chmod +x testGetProduts.sh
 
@@ -51,13 +56,17 @@ testGetProduts.sh
 ```
 
 ## Example: Fetching a product by ID (API **"product"**)
-Navigate to the qikserve directory and execute the following commands:
+Navigate to the qikserve directory and run the following commands in your preferred terminal:
 
-For Windows:
+For Windows PowerShell:
+```
+./testGetProdutById.cmd
+```
+For Windows Command Prompt:
 ```
 testGetProdutById.cmd
 ```
-For Linux/MacOS
+For Linux/MacOS Terminal:
 ```
 chmod +x testGetProdutById.sh
 
@@ -65,13 +74,17 @@ testGetProdutById.sh
 ```
 
 ## Example: Calculating a basket's total (API **"checkout"**)
-Navigate to the qikserve directory and execute the following commands:
+Navigate to the qikserve directory and run the following commands in your preferred terminal:
 
-For Windows:
+For Windows PowerShell:
+```
+./testCheckout.cmd
+```
+For Windows Command Prompt:
 ```
 testCheckout.cmd
 ```
-For Linux/MacOS
+For Linux/MacOS terminal:
 ```
 chmod +x testCheckout.sh
 
