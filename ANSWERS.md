@@ -2,7 +2,7 @@
 
 ## 1. How long did you spend on the test? What would you add if you had more time?
 
-I spent approximately 24 hours creating all the code, setting up the test environment with Docker Compose, and preparing the project description on GitHub. If I had more time, I would create a product registration feature with or without promotions via the API to further enrich the project's challenge.
+I spent approximately 24 hours creating all the code, setting up the test environment with Docker Compose, and preparing the project description on GitHub and tests. If I had more time, I would create a product registration feature with or without promotions via the API to further enrich the project's challenge.
 
 ## 2. What was the most useful feature that was added to the latest version of your chosen language? Please include a snippet of code that shows how you've used it.
 
@@ -29,7 +29,7 @@ The most challenging part was defining a unified error response structure to sta
 
 ## 4. What mechanism did you put in place to track down issues in production on this code? If you didn’t put anything, write down what you could do.
 
-I implemented standardized responses with detailed logs for each error, facilitating issue tracking in production.
+I implemented standardized responses with detailed logs for each error, improving issue tracking in production. User-friendly error messages were configured, along with an option to display technical details, streamlining incident identification and resolution. Additionally, all errors are logged to server files for further analysis and in-depth monitoring.
 
 ## 5. Explain your interpretation of the list of requirements and what was delivered or not delivered and why.
 
